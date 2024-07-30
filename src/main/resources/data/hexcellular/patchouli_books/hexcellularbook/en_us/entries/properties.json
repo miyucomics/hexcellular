@@ -1,17 +1,45 @@
 {
-	"name": "hexcellular.page.hexcellular_changes.title",
-	"icon": "minecraft:ice",
-	"category": "hexcasting:basics",
-	"sortnum": 1,
+	"name": "hexcellular.page.properties.title",
+	"icon": "minecraft:writable_book",
+	"category": "hexcasting:patterns",
+	"sortnum": 10,
 	"advancement": "hexcasting:root",
 	"pages": [
 		{
+			"type": "patchouli:text",
+			"text": "hexcellular.page.properties.0"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexcellular.page.properties.1"
+		},
+		{
 			"type": "hexcasting:pattern",
-			"op_id": "hexcellular:test",
-			"anchor": "hexcellular:test",
-			"input": "vector",
+			"op_id": "hexcellular:create_property",
+			"anchor": "hexcellular:create_property",
+			"input": "",
+			"output": "property",
+			"text": "hexcellular.page.create_property.summary"
+		},
+		{
+			"type": "patchouli:text",
+			"text": "hexcellular.page.properties.2"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexcellular:observe_property",
+			"anchor": "hexcellular:observe_property",
+			"input": "property",
+			"output": "any",
+			"text": "hexcellular.page.observe_property.summary"
+		},
+		{
+			"type": "hexcasting:pattern",
+			"op_id": "hexcellular:set_property",
+			"anchor": "hexcellular:set_property",
+			"input": "property, any",
 			"output": "",
-			"text": "hexcellular.page.test.summary"
+			"text": "hexcellular.page.set_property.summary"
 		}
 	]
 }
