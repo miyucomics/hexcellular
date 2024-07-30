@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "hexcellular",
+	"version": "${version}",
+	"name": "Hexcellular",
+	"description": "A simple addon adding properties for simple state keeping of iota.",
+	"authors": [
+		"miyucomics"
+	],
+	"contact": {
+		"homepage": "",
+		"sources": ""
+	},
+	"license": "MIT",
+	"icon": "assets/hexcellular/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"miyucomics.hexcellular.HexcellularMain"
+		],
+		"client": [
+			"miyucomics.hexcellular.HexcellularClient"
+		]
+	},
+	"depends": {
+		"minecraft": ">=1.19.2",
+		"fabricloader": ">=0.15.11",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0",
+		"hexcasting": ">=0.10.3"
+	}
+}
