@@ -128,52 +128,52 @@
   ><i class="bi bi-link-45deg"></i></a></span>
   </h2>
     <details class="toc-category">
-      <summary><a href="#basics" class="toc-elem "><img
-      title="Amethyst Shard"
-      alt="Amethyst Shard"
-      src="https://raw.githubusercontent.com/PrismarineJS/minecraft-assets/a14c64362abe4a12c2dfd87f8d1673af9d1b09f4/data/1.19.1/items/amethyst_shard.png"
-      loading="lazy"
-      class="item-texture  texture pixelated"
-    > Getting Started</a></summary>
-      <ul>
-          <li><a href="#properties" class="toc-elem "><img
-      title="Ice"
-      alt="Ice"
-      src="https://hexdoc-dev.github.io/hexdoc-minecraft/v/1.19.2/1.0.dev1/assets/minecraft/textures/block/ice.png"
+      <summary><a href="#patterns" class="toc-elem "><img
+      title="Bookshelf"
+      alt="Bookshelf"
+      src="https://hexdoc-dev.github.io/hexdoc-minecraft/v/1.19.2/1.0.dev1/assets/minecraft/textures/block/bookshelf.png"
       loading="lazy"
       class="item-texture  texture "
-    > hexcellular.page.hexcellular_changes.title</a></li>
+    > Patterns</a></summary>
+      <ul>
+          <li><a href="#properties" class="toc-elem "><img
+      title="Book and Quill"
+      alt="Book and Quill"
+      src="https://raw.githubusercontent.com/PrismarineJS/minecraft-assets/a14c64362abe4a12c2dfd87f8d1673af9d1b09f4/data/1.19.1/items/writable_book.png"
+      loading="lazy"
+      class="item-texture  texture pixelated"
+    > Properties</a></li>
       </ul>
     </details>
 </nav>
   <main class="book-body">
-<section id="basics">
+<section id="patterns">
     <h2 class="category-title page-header">
     <img
-      title="Amethyst Shard"
-      alt="Amethyst Shard"
-      src="https://raw.githubusercontent.com/PrismarineJS/minecraft-assets/a14c64362abe4a12c2dfd87f8d1673af9d1b09f4/data/1.19.1/items/amethyst_shard.png"
+      title="Bookshelf"
+      alt="Bookshelf"
+      src="https://hexdoc-dev.github.io/hexdoc-minecraft/v/1.19.2/1.0.dev1/assets/minecraft/textures/block/bookshelf.png"
       loading="lazy"
-      class="item-texture  texture pixelated"
-    >Getting Started<a
+      class="item-texture  texture "
+    >Patterns<a
     href="#table-of-contents"
     class="permalink small"
     title="Jump to top"
   ><i class="bi bi-box-arrow-up"></i></a><a
-    href="#basics"
+    href="#patterns"
     class="permalink small"
     title="Permalink"
   ><i class="bi bi-link-45deg"></i></a></h2>
-    <p>The practitioners of this art would cast their so-called <span style="color: #b38ef3">Hexes</span> by drawing strange patterns in the air with a <a href="https://hexcasting.hexxy.media/v/0.10.3/1.0/en_us#items/staff"><span style="color: #b0b">staff</span></a>-- or craft <a href="https://hexcasting.hexxy.media/v/0.10.3/1.0/en_us#items/hexcasting"><span style="color: #b0b">powerful magical items</span></a> to do the casting for them. How might I do the same?</p>
+    <p>A list of all the patterns I&#39;ve discovered, as well as what they do.</p>
 <div id="properties" class="entry">
     <h3 class="entry-title page-header">
     <img
-      title="Ice"
-      alt="Ice"
-      src="https://hexdoc-dev.github.io/hexdoc-minecraft/v/1.19.2/1.0.dev1/assets/minecraft/textures/block/ice.png"
+      title="Book and Quill"
+      alt="Book and Quill"
+      src="https://raw.githubusercontent.com/PrismarineJS/minecraft-assets/a14c64362abe4a12c2dfd87f8d1673af9d1b09f4/data/1.19.1/items/writable_book.png"
       loading="lazy"
-      class="item-texture  texture "
-    >hexcellular.page.hexcellular_changes.title<a
+      class="item-texture  texture pixelated"
+    >Properties<a
     href="#table-of-contents"
     class="permalink small"
     title="Jump to top"
@@ -182,9 +182,13 @@
     class="permalink small"
     title="Permalink"
   ><i class="bi bi-link-45deg"></i></a></h3>
-  <div id="properties@hexcellular:test" class="">
-<h4 class="pattern-title">hexcasting.spell.book.hexcellular:test (vector →)<a
-    href="#properties@hexcellular:test"
+    <p>Using Hexcasting, I can etch information into the laws of the universe themselves. These artificial bits of information are fittingly called properties and they can be accessed from anywhere with a property iota. Two Hexcasters with copies of the same property can set the property&#39;s iota and read it to instantly share the iota with each other.</p>
+<br />
+    <p>I can also use it to communicate <i>state</i> within and between multiple of my Hexcasting appliances. For instance, a casting device that has a private property of its own that it increments in order to keep track of how many times it has been used and do something different each time.</p>
+<br />
+  <div id="properties@hexcellular:create_property" class="">
+<h4 class="pattern-title">Schrödinger&#39;s Refl. (→ property)<a
+    href="#properties@hexcellular:create_property"
     class="permalink small"
     title="Permalink"
   ><i class="bi bi-link-45deg"></i></a></h4>
@@ -230,12 +234,126 @@
         class="spell-viz"
         width="216"
         height="216"
-        data-string="ewe"
-        data-start="east"
+        data-string="aawe"
+        data-start="south_west"
         data-per-world="False"
-      >Your browser does not support visualizing patterns. Pattern code: ewe</canvas>
+      >Your browser does not support visualizing patterns. Pattern code: aawe</canvas>
   </details>
-      <p>hexcellular.page.test.summary</p>
+      <p>Returns a reference to a random property iota. Costs one charged amethyst.</p>
+  </div>
+<br />
+    <p>When creating a property, the spell pushes a property iota with a randomly generated name. This name is the name of the property itself. I should immediately store these property iota for safe-keeping because there is no way to recover one once all references to it have been lost.</p>
+<br />
+  <div id="properties@hexcellular:observe_property" class="">
+<h4 class="pattern-title">Observation Purif. (property → any)<a
+    href="#properties@hexcellular:observe_property"
+    class="permalink small"
+    title="Permalink"
+  ><i class="bi bi-link-45deg"></i></a></h4>
+  <details class="details-collapsible">
+    <summary class="collapse-details collapse-spell"></summary>
+    <div class="dropdown spell-settings-dropdown">
+      <span
+        href=""
+        class="dropdown-toggle spell-settings-toggle"
+        data-toggle="dropdown"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <i class="bi bi-gear-fill"></i>
+      </span>
+      <ul class="dropdown-menu">
+        <li class="dropdown-submenu">
+          <a
+            href=""
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >Renders</a>
+          <ul class="dropdown-menu dropdown-menu-left render-dropdowns"></ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a
+            href=""
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >Palettes</a>
+          <ul class="dropdown-menu dropdown-menu-left palette-dropdowns"></ul>
+        </li>
+      </ul>
+    </div>
+      <canvas
+        class="spell-viz"
+        width="216"
+        height="216"
+        data-string="aawd"
+        data-start="south_west"
+        data-per-world="False"
+      >Your browser does not support visualizing patterns. Pattern code: aawd</canvas>
+  </details>
+      <p>Observes the current value of the property iota. Free.</p>
+  </div>
+<br />
+  <div id="properties@hexcellular:set_property" class="">
+<h4 class="pattern-title">Schrödinger&#39;s Gambit (property, any →)<a
+    href="#properties@hexcellular:set_property"
+    class="permalink small"
+    title="Permalink"
+  ><i class="bi bi-link-45deg"></i></a></h4>
+  <details class="details-collapsible">
+    <summary class="collapse-details collapse-spell"></summary>
+    <div class="dropdown spell-settings-dropdown">
+      <span
+        href=""
+        class="dropdown-toggle spell-settings-toggle"
+        data-toggle="dropdown"
+        role="button"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        <i class="bi bi-gear-fill"></i>
+      </span>
+      <ul class="dropdown-menu">
+        <li class="dropdown-submenu">
+          <a
+            href=""
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >Renders</a>
+          <ul class="dropdown-menu dropdown-menu-left render-dropdowns"></ul>
+        </li>
+        <li class="dropdown-submenu">
+          <a
+            href=""
+            class="dropdown-toggle"
+            data-toggle="dropdown"
+            role="button"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >Palettes</a>
+          <ul class="dropdown-menu dropdown-menu-left palette-dropdowns"></ul>
+        </li>
+      </ul>
+    </div>
+      <canvas
+        class="spell-viz"
+        width="216"
+        height="216"
+        data-string="aawq"
+        data-start="south_west"
+        data-per-world="False"
+      >Your browser does not support visualizing patterns. Pattern code: aawq</canvas>
+  </details>
+      <p>Sets the value of the property iota. Costs about a tenth of a dust.</p>
   </div>
 <br />
 </div>
