@@ -8,6 +8,7 @@ public class HexcellularMain implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		HexcellularPatterns.init();
 	}
 
 	public static Identifier id(String string) {
