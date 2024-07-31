@@ -3,8 +3,10 @@ _site/
 .idea/
 build/
 .gradle/
+.kotlin/
 run/
 __pycache__/
 build/
 .env
 venv/
+__gradle_version__.py
