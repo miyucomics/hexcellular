@@ -1,8 +1,8 @@
 {
 	"name": "hexcellular.page.properties.title",
-	"icon": "minecraft:writable_book",
+	"icon": "minecraft:sculk_sensor",
 	"category": "hexcasting:patterns",
-	"sortnum": 10,
+	"sortnum": 30,
 	"advancement": "hexcasting:root",
 	"pages": [
 		{
