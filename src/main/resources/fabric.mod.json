@@ -3,7 +3,7 @@
 	"id": "hexcellular",
 	"version": "${version}",
 	"name": "Hexcellular",
-	"description": "A simple addon adding properties for simple state keeping of iota.",
+	"description": "Adds property iota for simple iota storage, state keeping, and syncing.",
 	"authors": [
 		"miyucomics"
 	],

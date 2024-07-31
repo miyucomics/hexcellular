@@ -1,3 +1,3 @@
 # Hexcellular
 
-Adds the cell idea proposed by several members of the Hexcasting Discord server to allow for easy universal communication of iota between players or between hexes.
+Adds property iota: variables inscribed into the fabric of the universe itself. It can be used to long-distance communicate between players, Hexcasting casting devices, wisps, spell circles, and anything else that can read an iota.
