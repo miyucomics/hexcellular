@@ -10,9 +10,9 @@ import net.minecraft.server.world.ServerWorld
 import net.minecraft.text.Text
 import net.minecraft.util.Formatting
 
-class PropertyIota(name: String) : Iota(TYPE, name) {
+class PropertyIota(property: String) : Iota(TYPE, property) {
 	override fun isTruthy() = true
-	override fun toleratesOther(that: Iota) = typesMatch(this, that) && this.payload === (that as PropertyIota).payload
+	override fun toleratesOther(that: Iota) = typesMatch(this, that) && this.name == (that as PropertyIota).name
 	val name = payload as String
 
 	override fun serialize(): NbtElement {

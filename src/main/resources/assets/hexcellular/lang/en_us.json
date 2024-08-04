@@ -3,7 +3,7 @@
 	"hexcasting.spell.book.hexcellular:observe_property": "Observation Purif.",
 	"hexcasting.spell.book.hexcellular:set_property": "Schrödinger's Gambit",
 
-	"hexcasting.mishap.invalid_value.property": "a property iota",
+	"hexcasting.mishap.invalid_value.class.property": "a property iota",
 
 	"hexcellular.page.properties.title": "Property Iota",
 	"hexcellular.page.properties.0": "Using Hexcasting, I can etch information into the laws of the universe themselves. These artificial bits of information are fittingly called properties and they can be accessed from anywhere with a property iota. Two hexcasters with copies of the same property can set the property's iota and read it to instantly share the iota with each other.",
