@@ -3,7 +3,7 @@
 	"hexcasting.spell.book.hexcellular:observe_property": "观测之纯化",
 	"hexcasting.spell.book.hexcellular:set_property": "薛定谔之策略",
 
-	"hexcasting.mishap.invalid_value.property": "一个质性iota",
+	"hexcasting.mishap.invalid_value.class.property": "一个质性iota",
 
 	"hexcellular.page.properties.title": "质性 Iota",
 	"hexcellular.page.properties.0": "借助咒法学的力量，即可向宇宙的法则中直接刻入信息。这种信息粒有个相当恰当的名字——“质性”/“property”，可以在世界各处通过质性 iota 访问。持有同一质性的副本的两位咒术师在对质性写入后立即读取，即能共享写入的 iota。",
