@@ -41,7 +41,7 @@ private fun generateSyllable(wasNasal: Boolean): String {
 		vowel = vowels.random()
 		syllable = "$consonant$vowel"
 	}
-	if (Random.nextBoolean() && !syllable.startsWith('n'))
+	if (Random.nextBoolean())
 		syllable += 'n'
 	return syllable
 }
